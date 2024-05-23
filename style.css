@@ -1,0 +1,208 @@
+/*.do-hyeon-regular {
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Do Hyeon", sans-serif;
+  }
+  body{
+    overflow: hidden;
+    background-color: #00171f;
+  }
+
+  header{
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+  } 
+.flex2{
+  align-items: center;
+  justify-content: space-between;
+  gap: 82px;
+}
+.cabeçalho{
+/*    display: flex;
+    gap: 10%;
+    font-weight: 1000px;
+    text-indent: 10%;*/
+    padding: 2% 0% 0% 15%;
+    display: flex;
+    gap: 80px;
+}
+
+#foto{
+  width: 400px;
+  height: 400px;
+}
+.cabeçalho a{
+    color: #045d3c;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer; 
+}
+
+.cabeçalho a:after{
+    content: "";
+    position: absolute;
+    background-color: #1ed760;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    transition: 0.3s;
+    display: flex;
+}
+
+.cabeçalho a:hover{
+  color: #1dc360;
+  transition: 0.3s;
+}
+.cabeçalho a:hover:after{
+    width: 100%;
+}
+
+.info-text{
+  padding: 12% 0 0 15%;
+
+}
+
+.text h1{
+  color: white;
+}
+
+.text span{
+  color: #1dc360;
+}
+
+.text p{
+  color: #abbcc9;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.text h3{
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.boxredes{
+  color: #1dc360;
+  background: transparent;
+  border: solid 1px #1dc360;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.boxredes:hover{
+  background-color: #1dc360;
+  color: #00171f;
+  transition: 0.3s;
+  .box1_redes_link_imagens{
+  filter: brightness(0) saturate(100%) invert(8%) sepia(71%) saturate(559%) hue-rotate(146deg) brightness(92%) contrast(105%);
+  }
+}
+
+.fundo{
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  width: 400px;
+  height: 400px;
+}
+
+.foto0{
+  position: absolute;
+  top: 22%;
+  left: 59%;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+}
+
+.foto1{
+  position: absolute;
+  top: 35%;
+  left: 12%;
+  width: 20%;
+  border-radius: 20px;
+}
+
+
+
+.foto2{
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  width: 26.5%;
+  border-radius: 20px;
+}
+
+.foto3{
+  position: absolute;
+  top: 35%;
+  left: 65%;
+  width: 20%;
+  border-radius: 20px;
+}
+
+.rodape{
+  text-align: center;
+  padding-top: 15%;
+}
+
+hr{
+  border-color: #1dc360;
+}
+
+.imge{
+  text-align: center;
+  justify-content: space-between;
+
+}
+
+@media (max-width: 1500px) {
+  .flex2{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+  }
+  .cabeçalho{
+    padding: 2%;
+    justify-content: center;
+    gap: 40px;
+  }
+  .fundo{
+    position: absolute;
+    top: 15%;
+    left: 42%;
+    width: 250px;
+    height: 250px;
+  }
+  .foto0{
+    position: absolute;
+    top: 16%;
+    left: 40%;
+    right: 60%;
+    width: 250px;
+    height: 250px;
+  }
+  .info-text{
+    padding: 30% 0 0 12%;
+  }
+}

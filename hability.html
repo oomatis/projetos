@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Habilidades</title>
+</head>
+<body>
+    <header>    
+        <div class="cabeçalho">
+            <li>
+                <a href="#"><b>Home</b></a>
+            </li>
+            <li>
+                <a href="#"><b>Habilidades</b></a>
+            </li>
+            <li>
+                <a href="#"><b>Projetos</b></a>
+            </li>
+        </div>
+    </header>
+
+    <div class="info-text">
+        <div class="text">
+            <h1>Minhas <span>Habilidades</span></h1>
+            <p>Na programação possuo conhecimentos sobre desenolvimento de sistemas web, criação de jogos e <br>em lógica de programação</p>
+            <br><br><br>
+            <p>Sobre as Soft Skills, tenho habilidades de comunicação e inteligência emocional para lidar <br>com situações adversas</p>
+        </div>
+        <br><br>
+        <button class="boxredes" onclick="gotoLink(this)" value="https://www.linkedin.com/in/felipe-gabriel-b152a630b/">
+            <img src="Assets/check.png" alt="fotoLinkedin" class="box1_redes_link_imagens" style="height: 10px; width: 10px;">
+            Certificados
+        </button>
+
+        <script>
+            function gotoLink(link){
+                console.log(link.value);
+                location.href = link.value;
+            }
+        </script>
+
+    </div>
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-site">
+                        <img src="assets/habilidadesCirculo.png" alt="foto" class="fundo" style="height: 400px; width: 400px;">
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="rodape">
+                    <hr>
+                    <br>
+                <div class="logo_alura">
+                    <img src="assets/Logo_Alura_Include_(1).svg" alt="">
+                </div>
+                <div class="text">
+                    <p>Desenvolvido por Felipe Gomes</p>
+                </div>
+            </div>
+            </footer>
+</body>
+</html>
